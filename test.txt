@@ -1,0 +1,22 @@
+# Personal Aliases
+alias c='clear'
+alias uu='sudo apt-get update && sudo apt-get upgrade'
+alias uuu='sudo apt-get update && sudo apt-get upgrade && sudo apt dist-upgrade'
+alias cdc='cd -'
+alias bat='batcat'
+alias p='pwd'
+alias ..='cd ..'
+alias lh='ls -lah'
+alias rc="nano ~/.bashrc && source ~/.bashrc"
+alias ccc="sudo apt-get clean && sudo apt-get autoclean && sudo apt-get autoremove"
+alias h='hostnamectl status'
+alias w='curl -m 5 wttr.in/?2'
+alias pr='echo Processes per user: && ps -Ao user |sort |uniq -c |sort -n'
+alias r='echo -- Network Routes -- && ip -c route'
+alias ok='sudo !!'
+alias his='history 20'
+alias w='curl wttr.in/indianapolis'
+alias rs='redshift -O 4500'
+alias ro='redshift -x'
+
+
